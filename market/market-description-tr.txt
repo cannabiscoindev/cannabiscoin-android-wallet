@@ -1,0 +1,21 @@
+CannabisCoin'leriniz daima cebinizde sizinle olsun! Herhangi bir QR kodunu okuyarak çabuk ödeme yapabilirsiniz. Bir tüccar olarak ödemeleri güvenilir ve anında alabilirsiniz. CannabisCoin cüzdanı ilk mobil CannabisCoin uygulamasıdır ve muhtemelen en güvenli CannabisCoin uygulamasıdır!
+
+İŞLEVLERİ:
+• Hiçbir oturuma, web ya da bulut hizmetine gerek yoktur. Bu cüzdan merkezsiz ve eşten eşedir.
+• CannabisCoin meblağlarının BTC ve mBTC olarak gösterilmesi.
+• Dövizlere ve dövizlerden dönüştürme.
+• NFC, QR kodu veya CannabisCoin bağlantıları ile CannabisCoin gönderir ve alır.
+• Sık kullanılan CannabisCoin adresleri için adres defteri içerir.
+• Çevrimdışı olduğunuzda Bluetooth vasıtasıyla ödemeler.
+• Alınan CannabisCoin'ler için sistem bildirimleri.
+• CannabisCoin bakiyesini görüntüleyen widget.
+
+CannabisCoin hakkında daha fazla bilgi için şu siteyi ziyaret edebilirsiniz:
+http://www.cannabiscoin.co.nz/
+
+CannabisCoin Wallet uygulamasına katkıda bulunmak istiyorsanız proje sayfasını ziyaret ediniz:
+https://github.com/HashEngineering/cannabiscoin-wallet
+
+Lisans: GPLv3
+Tüm riski siz üstlenmiş olursunuz.
+http://www.gnu.org/licenses/gpl-3.0.en.html

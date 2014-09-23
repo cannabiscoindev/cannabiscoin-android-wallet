@@ -1,0 +1,20 @@
+Tato aplikace je peněženka s CannabisCoiny pro systém Android. Můžete posílat CannabisCoiny mezi telefony prostým naskenováním QR kódu, který je zobrazen aplikací, nebo pomocí NFC (Near Field Communication).
+
+VLASTNOSTI:
+
+• Zobrazení zůstatku peněženky v CannabisCoinech a několika jiných měnách.
+• Odesílání a přijímání CannabisCoinů pomocí NFC, QR-kódů, nebo CannabisCoin adres.
+• Adresář pro často používané adresy.
+• Možnost zadávání transakcí v offline režimu, k jejich zpracování dojde po připojení.
+• Oznamování v liště při synchronizaci a při přijetí CannabisCoinů.
+• Widget s celkovým zůstatkem.
+
+Více informací o CannabisCoinech
+http://www.cannabiscoin.co.nz/
+
+Pokud chcete přispět do projektu CannabisCoin Wallet, naleznete jej na adrese
+https://github.com/Esotericizm/CannabisCoin-wallet
+
+License: GPLv3
+Použití pouze na vlastní riziko!
+http://www.gnu.org/licenses/gpl-3.0.en.html

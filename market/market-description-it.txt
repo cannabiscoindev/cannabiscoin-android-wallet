@@ -1,0 +1,22 @@
+Porta i tuoi CannabisCoin sempre con te, in tasca! Paghi velocemente scansionando un QR-code. Come un commerciante, riceverai i pagamenti sicuri e istantanei. CannabisCoin Wallet è la prima CannabisCoin app mobile, e probabilmente anche la più sicura!
+
+CARATTERISTICHE:
+
+• Non è necessaria alcuna registrazione, servizio web o cloud! Questo portafoglio è de-centralizzato e peer to peer.
+• Mostra l'ammontare di CannabisCoin in MEC e mMEC.
+• Conversione verso e dalle monete nazionali.
+• Invio e ricevimento di CannabisCoin tramite NFC, codici QR o URL CannabisCoin.
+• Rubrica degli indirizzi per usare indirizzi CannabisCoin regolarmente.
+• Quando sei offline, puoi comunque ancora pagare via Bluetooth.
+• Sistema di notifica per le monete ricevute.
+• App Widget per il saldo CannabisCoin
+
+Puoi trovare altri dettagli su CannabisCoin su
+http://www.cannabiscoin.co.nz/
+
+Se vuoi contribuire a CannabisCoin Wallet, il progetto si trova su
+https://github.com/HashEngineering/cannabiscoin-wallet
+
+Licenza: GPLv3
+Usalo a tuo rischio!
+http://www.gnu.org/licenses/gpl-3.0.en.html

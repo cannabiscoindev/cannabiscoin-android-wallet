@@ -1,0 +1,25 @@
+Tartsd a zsebedben CannabisCoinjaidat! Egyszerűen, akár QR-kód leolvasásával is fizethetsz. Ha pedig termékeket, vagy szolgáltatást értékesítesz megbízható módon és gyorsan juthatsz a bevételeidhez. A CannabisCoin Tárca az első CannabisCoin app és kétségkívül a legbiztonságosabb is!
+
+ELŐNYÖK:
+
+• Nincs regisztráció és nem szükséges semmiféle háttéralkalmazás futtatása (web, vagy cloud)! Decentralizált és közvetlen (P2P).
+• A CannabisCoinjaid mennyiségét MEC és mMEC formában is láthatod.
+• Átváltás a saját valutádra, oda-vissza.
+• CannabisCoin küldése és fogadása NFC, QR-kód vagy közvetlen URL segítségével.
+• Címtár a rendszeresen használt CannabisCoin címek számára.
+• Offline állapotban is fizethetsz - Bluetooth segítségével.
+• Rendszerüzenet CannabisCoin érkezésekor.
+• Widget a CannabisCoin egyenlegről.
+
+Bővebben a CannabisCoin-ról:
+http://www.cannabiscoin.co.nz/
+
+Ha hozzájárulnál a CannabisCoin Wallet projekthez:
+https://github.com/HashEngineering/cannabiscoin-wallet
+
+
+
+
+Licensz: GPLv3
+Csak saját felelősségre használható!
+http://www.gnu.org/licenses/gpl-3.0.en.html

@@ -1,0 +1,20 @@
+Dit is een standalone CannabisCoin Wallet voor uw Android apparaat. U kan direct CannabisCoins versturen tussen telefoons door simpelweg de QR-code te scannen die de app weergeeft of via NFC (Near Field Communication).
+
+FUNCTIES:
+
+• Weergeven van het wallet saldo in CannabisCoin en verschillende andere valuta.
+• Verzenden en ontvangen van CannabisCoin via NFC, QR-codes of CannabisCoin URLs.
+• Adresboek voor veelgebruikte CannabisCoin adressen.
+• Transacties ingeven tijdens het offline zijn, deze zullen worden uitgevoerd wanneer u online komt.
+• Systeem melding over CannabisCoin connectiviteit en ontvangen CannabisCoins.
+• Widget voor CannabisCoin saldo.
+
+Voor meer informatie over CannabisCoin kunt u terecht op
+http://www.cannabiscoin.co.nz/
+
+Als u een bijdrage wil leveren aan CannabisCoin Wallet, het project is te vinden op
+https://github.com/HashEngineering/cannabiscoin-wallet
+
+Licentie: GPLv3
+Gebruik op eigen risico!
+http://www.gnu.org/licenses/gpl-3.0.en.html

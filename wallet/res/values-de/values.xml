@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="preferences_precision_labels">
+		<item>MEC, 8 Dezimalen</item>
+		<item>MEC, 6 Dezimalen</item>
+		<item>MEC, 4 Dezimalen</item>
+		<item>mMEC, 2 Dezimalen</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,21 @@
+Dengan aplikasi ini Anda selalu mempunyai CannabisCoin dengan Anda, dalam saku Anda! Anda dapat mengirim pembayaran hanya dengan memindai kode-QR atau mendekatkan dua ponsel bersama (NFC). CannabisCoin Wallet dirancang untuk mudah digunakan dan diandalkan, sementara juga menjadi lebih aman dan cepat.
+
+FITUR:
+
+• Tidak diperlukan server awan atau layanan web! Dompet ini benar-benar peer ke peer.
+• Tampilkan saldo dompet dalam CannabisCoin dan mata uang lainnya.
+• Mengirim dan menerima CannabisCoin via NFC, kode-QR atau Tautan CannabisCoin.
+• Buku alamat untuk alamat penggunaan CannabisCoin secara reguler.
+• Masukkan transaksi saat offline, akan dilaksanakan ketika online.
+• Notifikasi sistem untuk konektivitas CannabisCoin dan menerima koin.
+• Widget Apl untuk saldo CannabisCoin.
+
+Anda dapat mengetahui lebih mengenai CannabisCoin di
+http://www.cannabiscoin.co.nz/
+
+Jika Anda ingin berkontribusi kepada CannabisCoin Wallet, proyeknya berada di
+https://github.com/HashEngineering/cannabiscoin-wallet
+
+Lisensi: GPLv3
+Gunakan dengan resiko Anda!
+http://www.gnu.org/licenses/gpl-3.0.en.html

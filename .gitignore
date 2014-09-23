@@ -1,0 +1,12 @@
+local.properties
+.classpath
+.project
+.settings/
+.idea/
+bin/
+gen/
+target/
+Thumbs.db
+production/
+lib/
+out/

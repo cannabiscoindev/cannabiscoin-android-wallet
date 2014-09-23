@@ -1,0 +1,23 @@
+Ayez vos bitcoins toujours avec vous dans votre poche ! Payez rapidement en numérisant un code-QR. En tant que marchant vous recevez les paiements de manière fiable et instantanée. Bitcoin Wallet est la première appli bitcoin mobile et sans doute aussi la plus sécuritaire !
+
+FONCTIONS :
+
+• Affichage du montant de bitcoin en BTC et mBTC.
+• Conversion de et vers des devises nationales.
+• Envoi et réception des bitcoins via NFC, codes QR ou des URLs bitcoin.
+• Carnet d'adresses pour les adresses bitcoin utilisées régulièrement.
+• Quand vous êtes hors-ligne vous pouvez quand même payez via Bluetooth.
+• Notification du système pour les pièces reçues.
+• Widget affichant le solde bitcoin.
+
+
+Vous pouvez en apprendre plus au sujet de bitcoin sur
+http://www.cannabiscoin.co.nz/
+
+Si vous voulez contribuer á Bitcoin Wallet, le projet se trouve sur
+https://github.com/HashEngineering/cannabiscoin-wallet
+
+Licence : GPLv3
+Utiliser à vos propres risques !
+
+http://www.gnu.org/licenses/gpl-3.0.fr.html

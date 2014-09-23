@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="preferences_precision_labels">
+		<item>MEC, 8 decimaler</item>
+		<item>MEC, 6 decimaler</item>
+		<item>MEC, 4 decimaler</item>
+		<item>mMEC, 2 decimaler</item>
+	</string-array>
+
+</resources>

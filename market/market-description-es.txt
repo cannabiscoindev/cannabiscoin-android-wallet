@@ -1,0 +1,22 @@
+Ten tus Bitcoins siempre contigo, en tu bolsillo! Paga rápidamente escaneando un código QR. Como comerciante, recibes los pagos de forma fiable e instantáneamente. Bitcoin Wallet es la primera Bitcoin app para movil, e incluso la mas segura!
+
+CARACTERÍSTICAS:
+
+• ¡No requiere registro, servidor en la nube o servicio web! Este monedero es auténticamente entre pares (peer-to-peer).
+• Muestra la cantidad de digitalcoins en BTC y mBTC
+• Conversión a divisas nacionales.
+• Envío y recepción de digitalcoins vía NFC, códigos QR o URL de digitalcoin.
+• Libreta de direcciones para guardar las direcciones digitalcoin más utilizadas.
+• Cuando no tengas conexión, puedes seguir pagando via Bluetooth.
+• Notificación al recibir monedas.
+• Widget para el saldo de bitcoins.
+
+Puedes descubrir más sobre CannabisCoin en
+http://www.cannabiscoin.co.nz/
+
+Si quieres contribuir a CannabisCoin Wallet, el proyecto se encuentra en
+https://github.com/HashEngineering/cannabiscoin-wallet
+
+Licencia: GPLv3
+¡Úsalo bajo tu propio riesgo!
+http://www.gnu.org/licenses/gpl-3.0.en.html

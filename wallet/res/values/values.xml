@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="symbol_to">→</string>
+	<string name="symbol_from">←</string>
+	<string name="symbol_internal">⇄</string>
+	<string name="app_name">CannabisCoin</string>
+
+
+
+	<string-array name="preferences_precision_values">
+		<item>8</item>
+		<item>6</item>
+		<item>4</item>
+		<item>2/3</item>
+	</string-array>
+	<string-array name="preferences_precision_labels">
+		<item>MΣC, 8 digits</item>
+		<item>MΣC, 6 digits</item>
+		<item>MΣC, 4 digits</item>
+		<item>mMΣC, 2 digits</item>
+	</string-array>
+
+</resources>
