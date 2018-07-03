@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.util;
+package com.cannabiscoinfs.wallet.util;
 
 import java.util.Arrays;
 
@@ -28,7 +28,7 @@ import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 import android.nfc.NfcAdapter;
 import android.nfc.NfcManager;
-import com.cannabiscoin.wallet.Constants;
+import com.cannabiscoinfs.wallet.Constants;
 
 /**
  * @author Andreas Schildbach

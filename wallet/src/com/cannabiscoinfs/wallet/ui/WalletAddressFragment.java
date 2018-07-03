@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -38,14 +38,14 @@ import android.widget.TextView;
 import com.google.bitcoin.core.Address;
 import com.google.bitcoin.uri.BitcoinURI;
 
-import com.cannabiscoin.wallet.Configuration;
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.WalletApplication;
-import com.cannabiscoin.wallet.util.BitmapFragment;
-import com.cannabiscoin.wallet.util.Nfc;
-import com.cannabiscoin.wallet.util.Qr;
-import com.cannabiscoin.wallet.util.WalletUtils;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.Configuration;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.WalletApplication;
+import com.cannabiscoinfs.wallet.util.BitmapFragment;
+import com.cannabiscoinfs.wallet.util.Nfc;
+import com.cannabiscoinfs.wallet.util.Qr;
+import com.cannabiscoinfs.wallet.util.WalletUtils;
+import com.cannabiscoinfs.wallet.R;
 
 /**
  * @author Andreas Schildbach

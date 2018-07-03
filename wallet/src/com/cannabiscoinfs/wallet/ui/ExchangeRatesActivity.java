@@ -15,13 +15,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import android.os.Bundle;
 
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.view.MenuItem;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.R;
 
 /**
  * @author Andreas Schildbach

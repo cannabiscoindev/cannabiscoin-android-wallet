@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -34,11 +34,11 @@ import android.os.Looper;
 
 import com.google.bitcoin.core.Transaction;
 
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.PaymentIntent;
-import com.cannabiscoin.wallet.offline.DirectPaymentTask;
-import com.cannabiscoin.wallet.util.PaymentProtocol;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.PaymentIntent;
+import com.cannabiscoinfs.wallet.offline.DirectPaymentTask;
+import com.cannabiscoinfs.wallet.util.PaymentProtocol;
+import com.cannabiscoinfs.wallet.R;
 
 /**
  * @author Andreas Schildbach

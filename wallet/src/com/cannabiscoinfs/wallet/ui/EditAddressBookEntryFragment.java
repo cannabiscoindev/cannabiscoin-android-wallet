@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
@@ -32,10 +32,10 @@ import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
-import com.cannabiscoin.wallet.AddressBookProvider;
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.util.WalletUtils;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.AddressBookProvider;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.util.WalletUtils;
+import com.cannabiscoinfs.wallet.R;
 
 /**
  * @author Andreas Schildbach

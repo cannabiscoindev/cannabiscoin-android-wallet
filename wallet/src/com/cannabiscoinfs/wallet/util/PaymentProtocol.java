@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.util;
+package com.cannabiscoinfs.wallet.util;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -39,8 +39,8 @@ import com.google.protobuf.ByteString;
 import com.google.protobuf.InvalidProtocolBufferException;
 import com.google.protobuf.UninitializedMessageException;
 
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.PaymentIntent;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.PaymentIntent;
 
 /**
  * @author Andreas Schildbach

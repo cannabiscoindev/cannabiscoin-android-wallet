@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -76,19 +76,19 @@ import com.google.bitcoin.core.AddressFormatException;
 import com.google.bitcoin.core.ECKey;
 import com.google.bitcoin.core.Transaction;
 import com.google.bitcoin.core.Wallet;
-import com.cannabiscoin.wallet.Configuration;
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.PaymentIntent;
-import com.cannabiscoin.wallet.WalletApplication;
-import com.cannabiscoin.wallet.ui.InputParser.BinaryInputParser;
-import com.cannabiscoin.wallet.ui.InputParser.StringInputParser;
-import com.cannabiscoin.wallet.util.CrashReporter;
-import com.cannabiscoin.wallet.util.Crypto;
-import com.cannabiscoin.wallet.util.HttpGetThread;
-import com.cannabiscoin.wallet.util.Iso8601Format;
-import com.cannabiscoin.wallet.util.Nfc;
-import com.cannabiscoin.wallet.util.WalletUtils;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.Configuration;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.PaymentIntent;
+import com.cannabiscoinfs.wallet.WalletApplication;
+import com.cannabiscoinfs.wallet.ui.InputParser.BinaryInputParser;
+import com.cannabiscoinfs.wallet.ui.InputParser.StringInputParser;
+import com.cannabiscoinfs.wallet.util.CrashReporter;
+import com.cannabiscoinfs.wallet.util.Crypto;
+import com.cannabiscoinfs.wallet.util.HttpGetThread;
+import com.cannabiscoinfs.wallet.util.Iso8601Format;
+import com.cannabiscoinfs.wallet.util.Nfc;
+import com.cannabiscoinfs.wallet.util.WalletUtils;
+import com.cannabiscoinfs.wallet.R;
 import com.google.bitcoin.core.CoinDefinition;
 
 

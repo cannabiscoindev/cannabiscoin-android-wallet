@@ -15,14 +15,14 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.support.v4.content.CursorLoader;
-import com.cannabiscoin.wallet.Configuration;
-import com.cannabiscoin.wallet.ExchangeRatesProvider;
+import com.cannabiscoinfs.wallet.Configuration;
+import com.cannabiscoinfs.wallet.ExchangeRatesProvider;
 
 /**
  * @author Andreas Schildbach

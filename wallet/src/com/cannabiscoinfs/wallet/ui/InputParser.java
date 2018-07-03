@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -47,12 +47,12 @@ import com.google.bitcoin.protocols.payments.PaymentRequestException.PkiVerifica
 import com.google.bitcoin.uri.BitcoinURI;
 import com.google.bitcoin.uri.BitcoinURIParseException;
 
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.PaymentIntent;
-import com.cannabiscoin.wallet.util.Io;
-import com.cannabiscoin.wallet.util.PaymentProtocol;
-import com.cannabiscoin.wallet.util.Qr;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.PaymentIntent;
+import com.cannabiscoinfs.wallet.util.Io;
+import com.cannabiscoinfs.wallet.util.PaymentProtocol;
+import com.cannabiscoinfs.wallet.util.Qr;
+import com.cannabiscoinfs.wallet.R;
 
 
 import com.google.bitcoin.core.CoinDefinition;

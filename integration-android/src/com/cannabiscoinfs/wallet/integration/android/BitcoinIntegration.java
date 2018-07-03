@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cannabiscoin.wallet.integration.android;
+package com.cannabiscoinfs.wallet.integration.android;
 
 import android.app.Activity;
 import android.content.Context;
@@ -271,7 +271,7 @@ public final class BitcoinIntegration
 	{
 		Toast.makeText(context, "No CannabisCoin application found.\nPlease install CannabisCoin Wallet.", Toast.LENGTH_LONG).show();
 
-		final Intent marketIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.cannabiscoin.wallet"));
+		final Intent marketIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.cannabiscoinfs.wallet"));
 		final Intent binaryIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Esotericizm/cannabiscoin-wallet/releases"));
 
 		final PackageManager pm = context.getPackageManager();

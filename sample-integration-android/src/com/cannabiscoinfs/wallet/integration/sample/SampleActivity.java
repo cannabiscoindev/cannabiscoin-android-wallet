@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cannabiscoin.wallet.integration.sample;
+package com.cannabiscoinfs.wallet.integration.sample;
 
 import org.bitcoin.protocols.payments.Protos;
 
@@ -37,7 +37,7 @@ import com.google.bitcoin.core.NetworkParameters;
 import com.google.bitcoin.script.ScriptBuilder;
 import com.google.protobuf.ByteString;
 
-import com.cannabiscoin.wallet.integration.android.BitcoinIntegration;
+import com.cannabiscoinfs.wallet.integration.android.BitcoinIntegration;
 
 /**
  * @author Andreas Schildbach

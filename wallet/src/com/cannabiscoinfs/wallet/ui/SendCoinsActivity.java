@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import javax.annotation.Nonnull;
 
@@ -26,8 +26,8 @@ import android.os.Bundle;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
-import com.cannabiscoin.wallet.R;
-import com.cannabiscoin.wallet.PaymentIntent;
+import com.cannabiscoinfs.wallet.R;
+import com.cannabiscoinfs.wallet.PaymentIntent;
 
 /**
  * @author Andreas Schildbach

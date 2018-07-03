@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -31,11 +31,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.actionbarsherlock.app.SherlockFragment;
 import com.google.bitcoin.core.*;
-import com.cannabiscoin.wallet.AddressBookProvider;
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.WalletApplication;
-import com.cannabiscoin.wallet.util.*;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.AddressBookProvider;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.WalletApplication;
+import com.cannabiscoinfs.wallet.util.*;
+import com.cannabiscoinfs.wallet.R;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

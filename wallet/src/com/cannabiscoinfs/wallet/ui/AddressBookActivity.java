@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,9 +36,9 @@ import com.actionbarsherlock.view.MenuItem;
 import com.google.bitcoin.core.Address;
 import com.google.bitcoin.core.ECKey;
 
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.util.ViewPagerTabs;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.util.ViewPagerTabs;
+import com.cannabiscoinfs.wallet.R;
 
 
 /**

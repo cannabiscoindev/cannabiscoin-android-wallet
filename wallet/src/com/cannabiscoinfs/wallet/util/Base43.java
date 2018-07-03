@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cannabiscoin.wallet.util;
+package com.cannabiscoinfs.wallet.util;
 
 import java.nio.charset.Charset;
 

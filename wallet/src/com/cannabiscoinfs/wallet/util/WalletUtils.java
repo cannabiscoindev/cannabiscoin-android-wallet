@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.util;
+package com.cannabiscoinfs.wallet.util;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -60,7 +60,7 @@ import com.google.bitcoin.core.Wallet;
 
 import com.google.bitcoin.script.Script;
 
-import com.cannabiscoin.wallet.Constants;
+import com.cannabiscoinfs.wallet.Constants;
 
 /**
  * @author Andreas Schildbach

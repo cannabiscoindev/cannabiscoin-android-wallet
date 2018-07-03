@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import java.math.BigInteger;
 
@@ -50,15 +50,15 @@ import com.actionbarsherlock.view.MenuItem;
 import com.google.bitcoin.core.Wallet;
 import com.google.bitcoin.core.Wallet.BalanceType;
 
-import com.cannabiscoin.wallet.Configuration;
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.ExchangeRatesProvider;
-import com.cannabiscoin.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.cannabiscoin.wallet.WalletApplication;
-import com.cannabiscoin.wallet.service.BlockchainService;
-import com.cannabiscoin.wallet.util.GenericUtils;
-import com.cannabiscoin.wallet.util.WalletUtils;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.Configuration;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.ExchangeRatesProvider;
+import com.cannabiscoinfs.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.cannabiscoinfs.wallet.WalletApplication;
+import com.cannabiscoinfs.wallet.service.BlockchainService;
+import com.cannabiscoinfs.wallet.util.GenericUtils;
+import com.cannabiscoinfs.wallet.util.WalletUtils;
+import com.cannabiscoinfs.wallet.R;
 
 /**
  * @author Andreas Schildbach

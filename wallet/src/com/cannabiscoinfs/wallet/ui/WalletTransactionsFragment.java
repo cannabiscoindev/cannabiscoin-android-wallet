@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -25,9 +25,9 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import com.cannabiscoin.wallet.ui.TransactionsListFragment.Direction;
-import com.cannabiscoin.wallet.util.ViewPagerTabs;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.ui.TransactionsListFragment.Direction;
+import com.cannabiscoinfs.wallet.util.ViewPagerTabs;
+import com.cannabiscoinfs.wallet.R;
 
 /**
  * @author Andreas Schildbach

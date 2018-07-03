@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -90,24 +90,24 @@ import com.google.bitcoin.core.AddressFormatException;
 import com.google.bitcoin.core.Sha256Hash;
 import com.google.bitcoin.core.NetworkParameters;
 
-import com.cannabiscoin.wallet.AddressBookProvider;
-import com.cannabiscoin.wallet.Configuration;
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.ExchangeRatesProvider;
-import com.cannabiscoin.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.cannabiscoin.wallet.PaymentIntent;
-import com.cannabiscoin.wallet.PaymentIntent.Standard;
-import com.cannabiscoin.wallet.WalletApplication;
-import com.cannabiscoin.wallet.integration.android.BitcoinIntegration;
-import com.cannabiscoin.wallet.offline.DirectPaymentTask;
-import com.cannabiscoin.wallet.ui.InputParser.BinaryInputParser;
-import com.cannabiscoin.wallet.ui.InputParser.StreamInputParser;
-import com.cannabiscoin.wallet.ui.InputParser.StringInputParser;
-import com.cannabiscoin.wallet.util.GenericUtils;
-import com.cannabiscoin.wallet.util.Nfc;
-import com.cannabiscoin.wallet.util.PaymentProtocol;
-import com.cannabiscoin.wallet.util.WalletUtils;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.AddressBookProvider;
+import com.cannabiscoinfs.wallet.Configuration;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.ExchangeRatesProvider;
+import com.cannabiscoinfs.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.cannabiscoinfs.wallet.PaymentIntent;
+import com.cannabiscoinfs.wallet.PaymentIntent.Standard;
+import com.cannabiscoinfs.wallet.WalletApplication;
+import com.cannabiscoinfs.wallet.integration.android.BitcoinIntegration;
+import com.cannabiscoinfs.wallet.offline.DirectPaymentTask;
+import com.cannabiscoinfs.wallet.ui.InputParser.BinaryInputParser;
+import com.cannabiscoinfs.wallet.ui.InputParser.StreamInputParser;
+import com.cannabiscoinfs.wallet.ui.InputParser.StringInputParser;
+import com.cannabiscoinfs.wallet.util.GenericUtils;
+import com.cannabiscoinfs.wallet.util.Nfc;
+import com.cannabiscoinfs.wallet.util.PaymentProtocol;
+import com.cannabiscoinfs.wallet.util.WalletUtils;
+import com.cannabiscoinfs.wallet.R;
 
 /**
  * @author Andreas Schildbach

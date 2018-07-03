@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.service;
+package com.cannabiscoinfs.wallet.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,7 +23,7 @@ import org.slf4j.LoggerFactory;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import com.cannabiscoin.wallet.WalletApplication;
+import com.cannabiscoinfs.wallet.WalletApplication;
 
 /**
  * @author Andreas Schildbach

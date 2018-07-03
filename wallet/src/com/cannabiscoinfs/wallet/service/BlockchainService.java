@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.service;
+package com.cannabiscoinfs.wallet.service;
 
 import java.util.List;
 
@@ -23,7 +23,7 @@ import javax.annotation.CheckForNull;
 
 import com.google.bitcoin.core.Peer;
 import com.google.bitcoin.core.StoredBlock;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.R;
 
 
 

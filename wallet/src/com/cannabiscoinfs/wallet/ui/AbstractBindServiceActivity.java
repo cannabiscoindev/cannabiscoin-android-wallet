@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import javax.annotation.CheckForNull;
 
@@ -24,8 +24,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.IBinder;
-import com.cannabiscoin.wallet.service.BlockchainService;
-import com.cannabiscoin.wallet.service.BlockchainServiceImpl;
+import com.cannabiscoinfs.wallet.service.BlockchainService;
+import com.cannabiscoinfs.wallet.service.BlockchainServiceImpl;
 
 /**
  * @author Andreas Schildbach

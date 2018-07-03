@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.util;
+package com.cannabiscoinfs.wallet.util;
 
 import javax.annotation.Nonnull;
 
@@ -28,7 +28,7 @@ import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.R;
 
 
 /**

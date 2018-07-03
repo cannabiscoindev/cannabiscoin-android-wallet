@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import android.app.Activity;
 import android.content.DialogInterface;
@@ -25,8 +25,8 @@ import android.os.Bundle;
 
 import com.google.bitcoin.core.Transaction;
 
-import com.cannabiscoin.wallet.PaymentIntent;
-import com.cannabiscoin.wallet.ui.InputParser.StringInputParser;
+import com.cannabiscoinfs.wallet.PaymentIntent;
+import com.cannabiscoinfs.wallet.ui.InputParser.StringInputParser;
 
 /**
  * @author Andreas Schildbach

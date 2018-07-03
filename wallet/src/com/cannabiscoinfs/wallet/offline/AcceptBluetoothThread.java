@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.offline;
+package com.cannabiscoinfs.wallet.offline;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -38,9 +38,9 @@ import android.bluetooth.BluetoothSocket;
 import com.google.bitcoin.core.ProtocolException;
 import com.google.bitcoin.core.Transaction;
 
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.util.Bluetooth;
-import com.cannabiscoin.wallet.util.PaymentProtocol;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.util.Bluetooth;
+import com.cannabiscoinfs.wallet.util.PaymentProtocol;
 
 /**
  * @author Shahar Livne

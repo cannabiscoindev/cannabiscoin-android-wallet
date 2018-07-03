@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import java.net.InetAddress;
 import java.util.List;
@@ -53,9 +53,9 @@ import com.actionbarsherlock.app.SherlockListFragment;
 import com.google.bitcoin.core.Peer;
 import com.google.bitcoin.core.VersionMessage;
 
-import com.cannabiscoin.wallet.service.BlockchainService;
-import com.cannabiscoin.wallet.service.BlockchainServiceImpl;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.service.BlockchainService;
+import com.cannabiscoinfs.wallet.service.BlockchainServiceImpl;
+import com.cannabiscoinfs.wallet.R;
 
 /**
  * @author Andreas Schildbach

@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet;
+package com.cannabiscoinfs.wallet;
 
 import java.io.File;
 import java.nio.charset.Charset;
@@ -27,7 +27,7 @@ import com.google.bitcoin.core.NetworkParameters;
 import com.google.bitcoin.params.MainNetParams;
 import com.google.bitcoin.params.TestNet3Params;
 import com.google.bitcoin.core.CoinDefinition;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.R;
 
 
 /**
@@ -76,7 +76,7 @@ public class Constants
 
 
 	public static final String CURRENCY_CODE_BTC = CoinDefinition.coinTicker;//"BTC";
-	public static final String CURRENCY_CODE_MBTC = "m" + CoinDefinition.coinTicker;//"BTC";
+	public static final String CURRENCY_CODE_MBTC = "m" + CoinDefinition.coinTicker;//"mBTC";
 
 	public static final char CHAR_HAIR_SPACE = '\u200a';
 	public static final char CHAR_THIN_SPACE = '\u2009';
@@ -94,7 +94,7 @@ public class Constants
 	public static final int LOCAL_PRECISION = 8;        //altcoins need more digits in BTC
 
 	public static final String DONATION_ADDRESS = CoinDefinition.DONATION_ADDRESS;
-	public static final String REPORT_EMAIL = "esotericizm88@gmail.com";
+	public static final String REPORT_EMAIL = "b4zz4.code@gmail.com";
 
 	public static final String REPORT_SUBJECT_ISSUE = "Reported issue";
 	public static final String REPORT_SUBJECT_CRASH = "Crash report";
@@ -102,22 +102,22 @@ public class Constants
 	public static final String LICENSE_URL = "http://www.gnu.org/licenses/gpl-3.0.txt";
     public static final String FORKED_FROM_SOURCE = "based on bitcoin-wallet 3.38\n";
     public static final String FORKED_FROM_SOURCE_BITCOINJ = "based on bitcoinj 0.12\n";
-	public static final String SOURCE_URL = "https://github.com/cannabiscoindev/" + CoinDefinition.coinName.toLowerCase() + "-wallet";
-	public static final String BINARY_URL = "https://github.com/cannabiscoindev/"+ CoinDefinition.coinName.toLowerCase() +"-wallet/releases";
+	public static final String SOURCE_URL = "https://github.com/cannabiscoindev/" + CoinDefinition.coinName.toLowerCase() + "-android-wallet";
+	public static final String BINARY_URL = "https://github.com/cannabiscoindev/"+ CoinDefinition.coinName.toLowerCase() +"-android-wallet/releases";
 	public static final String CREDITS_BITCOINJ_URL = "https://github.com/cannabiscoindev/" + CoinDefinition.coinName.toLowerCase() + "j";
 	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/zxing/";
     public static final String CREDITS_WEBSITE_URL = "http://cannabiscoin.net/";
-    public static final String CREDITS_FORUM_URL = "https://bitcointalk.org/index.php?topic=661885.0";
+    public static final String CREDITS_FORUM_URL = "https://bitcointalk.org/index.php?topic=827998.0";
 	public static final String CREDITS_ICON_URL = "http://forum.cannabiscoin.co.nz/index.php?topic=215.msg1849#msg1849";
 
-	public static final String AUTHOR_TWITTER_URL = "https://twitter.com/#!/Esotericizm";
-	public static final String AUTHOR_GOOGLEPLUS_URL = "https://profiles.google.com/Esotericizm";
+//	public static final String AUTHOR_TWITTER_URL = "";
+//	public static final String AUTHOR_GOOGLEPLUS_URL = "";
 
 	public static final String COMMUNITY_GOOGLEPLUS_URL = "https://plus.google.com/communities/105515929887248493912";
 
 	public static final String MARKET_APP_URL = "market://details?id=%s";
 	public static final String WEBMARKET_APP_URL = "https://play.google.com/store/apps/details?id=%s";
-	public static final String MARKET_PUBLISHER_URL = "market://search?q=pub:\"Esotericizm\"";
+//	public static final String MARKET_PUBLISHER_URL = "";
 
 	public static final String VERSION_URL = "http://wallet.schildbach.de/version";
 	public static final int HTTP_TIMEOUT_MS = 15 * (int) DateUtils.SECOND_IN_MILLIS;

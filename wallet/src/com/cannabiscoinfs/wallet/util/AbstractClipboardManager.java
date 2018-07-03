@@ -1,4 +1,4 @@
-package com.cannabiscoin.wallet.util;
+package com.cannabiscoinfs.wallet.util;
 
 import android.app.Activity;
 import android.content.Context;

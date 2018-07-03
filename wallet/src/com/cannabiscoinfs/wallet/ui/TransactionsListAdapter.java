@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -48,11 +48,11 @@ import com.google.bitcoin.core.TransactionConfidence.ConfidenceType;
 import com.google.bitcoin.core.Wallet;
 import com.google.bitcoin.wallet.DefaultCoinSelector;
 
-import com.cannabiscoin.wallet.AddressBookProvider;
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.util.CircularProgressView;
-import com.cannabiscoin.wallet.util.WalletUtils;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.AddressBookProvider;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.util.CircularProgressView;
+import com.cannabiscoinfs.wallet.util.WalletUtils;
+import com.cannabiscoinfs.wallet.R;
 
 /**
  * @author Andreas Schildbach

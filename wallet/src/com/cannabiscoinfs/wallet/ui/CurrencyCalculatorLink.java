@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import java.math.BigInteger;
 
@@ -24,9 +24,9 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 import android.view.View;
-import com.cannabiscoin.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.cannabiscoin.wallet.ui.CurrencyAmountView.Listener;
-import com.cannabiscoin.wallet.util.WalletUtils;
+import com.cannabiscoinfs.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.cannabiscoinfs.wallet.ui.CurrencyAmountView.Listener;
+import com.cannabiscoinfs.wallet.util.WalletUtils;
 
 /**
  * @author Andreas Schildbach

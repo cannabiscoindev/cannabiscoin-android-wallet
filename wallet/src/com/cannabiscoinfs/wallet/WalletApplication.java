@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet;
+package com.cannabiscoinfs.wallet;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -64,12 +64,12 @@ import com.google.bitcoin.store.WalletProtobufSerializer;
 import com.google.bitcoin.utils.Threading;
 import com.google.bitcoin.wallet.WalletFiles;
 
-import com.cannabiscoin.wallet.service.BlockchainService;
-import com.cannabiscoin.wallet.service.BlockchainServiceImpl;
-import com.cannabiscoin.wallet.util.CrashReporter;
-import com.cannabiscoin.wallet.util.Io;
-import com.cannabiscoin.wallet.util.LinuxSecureRandom;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.service.BlockchainService;
+import com.cannabiscoinfs.wallet.service.BlockchainServiceImpl;
+import com.cannabiscoinfs.wallet.util.CrashReporter;
+import com.cannabiscoinfs.wallet.util.Io;
+import com.cannabiscoinfs.wallet.util.LinuxSecureRandom;
+import com.cannabiscoinfs.wallet.R;
 
 
 /**

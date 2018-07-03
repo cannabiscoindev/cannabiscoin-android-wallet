@@ -1,4 +1,9 @@
 CannabisCoin
+v1.0.5
+* updated checkpoints
+* updated seeds
+* fixed broken exchange rate module - Cryptsy is down and probably out - Bittrex code did not properly access JSON.
+
 v0.3.1
 * updated checkpoints
 * updated graphics/*.svg files (removed bitcoin files)
@@ -31,7 +36,7 @@ v0.1.2
 v0.1.1
 * First CannabisCoin App
 ----------------------------
-digitalcoin Wallet
+cannabiscoin Wallet
 -----------------
 v0.1.4-beta
 * permanent fix for bugs relating to pause activities (removed temp fixes and support-v4r13)
@@ -44,8 +49,8 @@ v0.1.2-beta
 * added two nodes from a list of addnodes from the bitcointalk topic
 
 v0.1.1-beta
-* renamed to hashengineering.digitalcoin.wallet
-* added support for importing Bitcoin Private Keys from first digitalcoin app (Crypto-Expert)
+* renamed to hashengineering.cannabiscoin.wallet
+* added support for importing Bitcoin Private Keys from first cannabiscoin app (Crypto-Expert)
 
 v1.0.1.5
 * Fixed menu item doubling on rotate in address screen - langerhans (https://github.com/langerhans/dogecoin-wallet-new)
@@ -70,10 +75,10 @@ v1.0.1.2
 
 v1.0.1.1
 
-*  updated digitalcoin 1.0.1 - difficulty adjustment fork
+*  updated cannabiscoin 1.0.1 - difficulty adjustment fork
 
 v1.00
-* Forked bitcoin-wallet v3.23 for digitalcoin V1.00 (http://digitalcoin.co)
+* Forked bitcoin-wallet v3.23 for cannabiscoin V1.00 (http://cannabiscoin.co)
 
 -----------------------------
 Bitcoin Wallet

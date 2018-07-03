@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -28,9 +28,9 @@ import com.actionbarsherlock.app.SherlockPreferenceActivity;
 import com.actionbarsherlock.view.MenuItem;
 import com.google.bitcoin.core.VersionMessage;
 
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.WalletApplication;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.WalletApplication;
+import com.cannabiscoinfs.wallet.R;
 
 
 /**
@@ -43,9 +43,9 @@ public final class AboutActivity extends SherlockPreferenceActivity
 	private static final String KEY_ABOUT_SOURCE = "about_source";
 	private static final String KEY_ABOUT_MARKET_APP = "about_market_app";
 	private static final String KEY_ABOUT_COMMUNITY_GOOGLEPLUS = "about_community_googleplus";
-	private static final String KEY_ABOUT_AUTHOR_TWITTER = "about_author_twitter";
-	private static final String KEY_ABOUT_AUTHOR_GOOGLEPLUS = "about_author_googleplus";
-	private static final String KEY_ABOUT_MARKET_PUBLISHER = "about_market_publisher";
+//	private static final String KEY_ABOUT_AUTHOR_TWITTER = "about_author_twitter";
+//	private static final String KEY_ABOUT_AUTHOR_GOOGLEPLUS = "about_author_googleplus";
+//	private static final String KEY_ABOUT_MARKET_PUBLISHER = "about_market_publisher";
     private static final String KEY_ABOUT_CREDITS_WEBSITE = "about_credits_website";
     private static final String KEY_ABOUT_CREDITS_FORUM = "about_credits_forum";
  	private static final String KEY_ABOUT_CREDITS_BITCOINJ = "about_credits_bitcoinj";
@@ -66,7 +66,7 @@ public final class AboutActivity extends SherlockPreferenceActivity
 		findPreference(KEY_ABOUT_LICENSE).setSummary(Constants.LICENSE_URL);
 		findPreference(KEY_ABOUT_SOURCE).setSummary(Constants.FORKED_FROM_SOURCE +Constants.SOURCE_URL);
 
-		findPreference(KEY_ABOUT_MARKET_PUBLISHER).setSummary(Constants.MARKET_PUBLISHER_URL);
+//		findPreference(KEY_ABOUT_MARKET_PUBLISHER).setSummary(Constants.MARKET_PUBLISHER_URL);
 
 		findPreference(KEY_ABOUT_CREDITS_BITCOINJ).setTitle(getString(R.string.about_credits_bitcoinj_title, VersionMessage.BITCOINJ_VERSION));
 		findPreference(KEY_ABOUT_CREDITS_BITCOINJ).setSummary(Constants.FORKED_FROM_SOURCE_BITCOINJ+Constants.CREDITS_BITCOINJ_URL);
@@ -131,21 +131,21 @@ public final class AboutActivity extends SherlockPreferenceActivity
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.CREDITS_FORUM_URL)));
             finish();
         }
-		else if (KEY_ABOUT_AUTHOR_TWITTER.equals(key))
+/*		else if (KEY_ABOUT_AUTHOR_TWITTER.equals(key))
 		{
 			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.AUTHOR_TWITTER_URL)));
 			finish();
-		}
-		else if (KEY_ABOUT_AUTHOR_GOOGLEPLUS.equals(key))
+		} */
+/*		else if (KEY_ABOUT_AUTHOR_GOOGLEPLUS.equals(key))
 		{
 			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.AUTHOR_GOOGLEPLUS_URL)));
 			finish();
-        }
-		else if (KEY_ABOUT_MARKET_PUBLISHER.equals(key))
+        } */
+/*		else if (KEY_ABOUT_MARKET_PUBLISHER.equals(key))
 		{
 			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.MARKET_PUBLISHER_URL)));
 			finish();
-		}
+		} */
 		else if (KEY_ABOUT_CREDITS_BITCOINJ.equals(key))
 		{
 			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.CREDITS_BITCOINJ_URL)));

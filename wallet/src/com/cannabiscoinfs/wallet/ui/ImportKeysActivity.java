@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -41,10 +41,10 @@ import android.widget.EditText;
 import com.google.bitcoin.core.ECKey;
 import com.google.bitcoin.core.Wallet;
 
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.util.Crypto;
-import com.cannabiscoin.wallet.util.WalletUtils;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.util.Crypto;
+import com.cannabiscoinfs.wallet.util.WalletUtils;
+import com.cannabiscoinfs.wallet.R;
 
 /**
  * @author Andreas Schildbach

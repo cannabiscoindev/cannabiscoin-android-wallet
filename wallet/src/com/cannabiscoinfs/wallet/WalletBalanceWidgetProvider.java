@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet;
+package com.cannabiscoinfs.wallet;
 
 import java.math.BigInteger;
 
@@ -34,13 +34,13 @@ import android.widget.RemoteViews;
 import com.google.bitcoin.core.Wallet;
 import com.google.bitcoin.core.Wallet.BalanceType;
 
-import com.cannabiscoin.wallet.ui.RequestCoinsActivity;
-import com.cannabiscoin.wallet.ui.SendCoinsActivity;
-import com.cannabiscoin.wallet.ui.SendCoinsQrActivity;
-import com.cannabiscoin.wallet.ui.WalletActivity;
-import com.cannabiscoin.wallet.util.GenericUtils;
-import com.cannabiscoin.wallet.util.WalletUtils;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.ui.RequestCoinsActivity;
+import com.cannabiscoinfs.wallet.ui.SendCoinsActivity;
+import com.cannabiscoinfs.wallet.ui.SendCoinsQrActivity;
+import com.cannabiscoinfs.wallet.ui.WalletActivity;
+import com.cannabiscoinfs.wallet.util.GenericUtils;
+import com.cannabiscoinfs.wallet.util.WalletUtils;
+import com.cannabiscoinfs.wallet.R;
 
 
 /**

@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import javax.annotation.Nonnull;
 
@@ -23,7 +23,7 @@ import android.graphics.Canvas;
 import android.graphics.ColorFilter;
 import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
-import com.cannabiscoin.wallet.Constants;
+import com.cannabiscoinfs.wallet.Constants;
 
 /**
  * @author Andreas Schildbach

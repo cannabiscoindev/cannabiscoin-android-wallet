@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet;
+package com.cannabiscoinfs.wallet;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;
@@ -47,8 +47,8 @@ import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.provider.BaseColumns;
 import android.text.format.DateUtils;
-import com.cannabiscoin.wallet.util.GenericUtils;
-import com.cannabiscoin.wallet.util.Io;
+import com.cannabiscoinfs.wallet.util.GenericUtils;
+import com.cannabiscoinfs.wallet.util.Io;
 
 /**
  * @author Andreas Schildbach
@@ -92,7 +92,6 @@ public class ExchangeRatesProvider extends ContentProvider
 	private static final String[] BITCOINAVERAGE_FIELDS = new String[] { "24h_avg", "last" };
 	private static final URL BLOCKCHAININFO_URL;
 	private static final String[] BLOCKCHAININFO_FIELDS = new String[] { "15m" };
-	private static final URL BITTREX_URL;
 
 	// https://bitmarket.eu/api/ticker
 
@@ -102,7 +101,6 @@ public class ExchangeRatesProvider extends ContentProvider
 		{
 			BITCOINAVERAGE_URL = new URL("https://api.bitcoinaverage.com/ticker/global/all");
 			BLOCKCHAININFO_URL = new URL("https://blockchain.info/ticker");
-			BITTREX_URL = new URL("https://bittrex.com/api/v1.1/public/getticker?market=BTC-CANN");
 		}
 		catch (final MalformedURLException x)
 		{
@@ -390,15 +388,21 @@ public class ExchangeRatesProvider extends ContentProvider
                 reader = new InputStreamReader(new BufferedInputStream(connection.getInputStream(), 1024));
                 Io.copy(reader, content);
                 final JSONObject head = new JSONObject(content.toString());
-                String result = head.getString("result");
-                if(result.equals("true"))
+                JSONObject resultObject = head.getJSONObject("result");
+                
+                String success = head.getString("success");
+                
+                if(success.equals("true"))
                 {
 
-                    Double averageTrade = head.getDouble("Bid");
+                   btcRate = resultObject.getDouble("Bid");
+
+/*                    Double averageTrade = head.getDouble("Bid");
 
 
                     if(currency.equalsIgnoreCase("BTC"))
                         btcRate = averageTrade;
+*/                        
                 }
 
             }
@@ -587,8 +591,8 @@ public class ExchangeRatesProvider extends ContentProvider
                 }
                 else
                 {
-                    rates.put(CoinDefinition.cryptsyMarketCurrency, new ExchangeRate(CoinDefinition.cryptsyMarketCurrency, GenericUtils.toNanoCoins(String.format("%.8f", btcRate).replace(",", "."), 0), cryptsyValue ? "pubapi.cryptsy.com" : "data.bter.com"));
-                    rates.put("m" + CoinDefinition.cryptsyMarketCurrency, new ExchangeRate("m" + CoinDefinition.cryptsyMarketCurrency, GenericUtils.toNanoCoins(String.format("%.5f", btcRate*1000).replace(",", "."), 0), cryptsyValue ? "pubapi.cryptsy.com" : "data.bter.com"));
+                    rates.put(CoinDefinition.cryptsyMarketCurrency, new ExchangeRate(CoinDefinition.cryptsyMarketCurrency, GenericUtils.toNanoCoins(String.format("%.8f", btcRate).replace(",", "."), 0), cryptsyValue ? "pubapi.cryptsy.com" : "bittrex.com"));
+                    rates.put("m" + CoinDefinition.cryptsyMarketCurrency, new ExchangeRate("m" + CoinDefinition.cryptsyMarketCurrency, GenericUtils.toNanoCoins(String.format("%.5f", btcRate*1000).replace(",", "."), 0), cryptsyValue ? "pubapi.cryptsy.com" : "bittrex.com"));
                 }
 
 

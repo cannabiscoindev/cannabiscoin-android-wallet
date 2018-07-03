@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet;
+package com.cannabiscoinfs.wallet;
 
 import java.math.BigInteger;
 
@@ -28,7 +28,7 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.text.format.DateUtils;
-import com.cannabiscoin.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.cannabiscoinfs.wallet.ExchangeRatesProvider.ExchangeRate;
 
 /**
  * @author Andreas Schildbach

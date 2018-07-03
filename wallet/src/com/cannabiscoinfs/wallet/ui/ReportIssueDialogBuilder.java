@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -43,10 +43,10 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.util.CrashReporter;
-import com.cannabiscoin.wallet.util.Io;
-import com.cannabiscoin.wallet.R;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.util.CrashReporter;
+import com.cannabiscoinfs.wallet.util.Io;
+import com.cannabiscoinfs.wallet.R;
 
 /**
  * @author Andreas Schildbach

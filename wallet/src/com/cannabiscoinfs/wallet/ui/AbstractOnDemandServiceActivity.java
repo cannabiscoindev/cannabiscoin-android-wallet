@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import javax.annotation.Nonnull;
 
@@ -23,7 +23,7 @@ import com.google.bitcoin.core.Transaction;
 import com.google.bitcoin.core.VerificationException;
 import com.google.bitcoin.core.Wallet;
 
-import com.cannabiscoin.wallet.WalletApplication;
+import com.cannabiscoinfs.wallet.WalletApplication;
 
 /**
  * @author Andreas Schildbach

@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.service;
+package com.cannabiscoinfs.wallet.service;
 
 import java.io.File;
 import java.io.IOException;
@@ -83,17 +83,17 @@ import com.google.bitcoin.store.BlockStoreException;
 import com.google.bitcoin.store.SPVBlockStore;
 import com.google.bitcoin.utils.Threading;
 
-import com.cannabiscoin.wallet.AddressBookProvider;
-import com.cannabiscoin.wallet.Configuration;
-import com.cannabiscoin.wallet.Constants;
-import com.cannabiscoin.wallet.WalletApplication;
-import com.cannabiscoin.wallet.WalletBalanceWidgetProvider;
-import com.cannabiscoin.wallet.ui.WalletActivity;
-import com.cannabiscoin.wallet.util.CrashReporter;
-import com.cannabiscoin.wallet.util.GenericUtils;
-import com.cannabiscoin.wallet.util.WalletUtils;
-import com.cannabiscoin.wallet.R;
-import com.cannabiscoin.wallet.util.ThrottlingWalletChangeListener;
+import com.cannabiscoinfs.wallet.AddressBookProvider;
+import com.cannabiscoinfs.wallet.Configuration;
+import com.cannabiscoinfs.wallet.Constants;
+import com.cannabiscoinfs.wallet.WalletApplication;
+import com.cannabiscoinfs.wallet.WalletBalanceWidgetProvider;
+import com.cannabiscoinfs.wallet.ui.WalletActivity;
+import com.cannabiscoinfs.wallet.util.CrashReporter;
+import com.cannabiscoinfs.wallet.util.GenericUtils;
+import com.cannabiscoinfs.wallet.util.WalletUtils;
+import com.cannabiscoinfs.wallet.R;
+import com.cannabiscoinfs.wallet.util.ThrottlingWalletChangeListener;
 
 
 /**

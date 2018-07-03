@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet;
+package com.cannabiscoinfs.wallet;
 
 import java.math.BigInteger;
 import java.util.Arrays;
@@ -36,8 +36,8 @@ import com.google.bitcoin.script.Script;
 import com.google.bitcoin.script.ScriptBuilder;
 import com.google.bitcoin.uri.BitcoinURI;
 
-import com.cannabiscoin.wallet.util.Bluetooth;
-import com.cannabiscoin.wallet.util.GenericUtils;
+import com.cannabiscoinfs.wallet.util.Bluetooth;
+import com.cannabiscoinfs.wallet.util.GenericUtils;
 
 /**
  * @author Andreas Schildbach

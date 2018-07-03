@@ -6,7 +6,7 @@
 			android:key="about_version"
 			android:title="Version" />
 		<Preference
-			android:summary="© 2011-2014, Andreas Schildbach\n© 2013-2014, CannabisCoin\n© 2013-2014, Esotericizm"
+			android:summary="© 2011-2014, Andreas Schildbach\n© 2013-2014, CannabisCoin\n© 2013-2014, Esotericizm, \n© 2015-2016, Bazza"
 			android:title="Copyright" />
         <Preference
                 android:summary="Version 0.8.6.3-g14426ce-beta"

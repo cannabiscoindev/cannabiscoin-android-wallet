@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.camera;
+package com.cannabiscoinfs.wallet.camera;
 
 import java.io.IOException;
 import java.util.ArrayList;

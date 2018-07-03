@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.cannabiscoin.wallet.ui;
+package com.cannabiscoinfs.wallet.ui;
 
 import java.math.BigInteger;
 import java.util.concurrent.RejectedExecutionException;
@@ -33,7 +33,7 @@ import com.google.bitcoin.core.Wallet.BalanceType;
 import com.google.bitcoin.utils.Threading;
 
 
-import com.cannabiscoin.wallet.util.ThrottlingWalletChangeListener;
+import com.cannabiscoinfs.wallet.util.ThrottlingWalletChangeListener;
 
 /**
  * @author Andreas Schildbach
