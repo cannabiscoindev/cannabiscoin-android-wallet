@@ -7,7 +7,7 @@
 	<artifactId>wallet</artifactId>
 	<packaging>apk</packaging>
 
-	<version>1.0.5</version>
+	<version>1.0.7</version>
 	<name>CannabisCoin Wallet</name>
 
 	<parent>
@@ -108,7 +108,6 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-
 
 	</dependencies>
 

@@ -5,8 +5,8 @@
 
 	package="com.cannabiscoinfs.wallet"
 	android:installLocation="internalOnly"
-	android:versionCode="10105"
-	android:versionName="1.0.5" >
+	android:versionCode="10107"
+	android:versionName="1.0.7" >
 
 	<uses-sdk
 		android:minSdkVersion="10"
