@@ -10,7 +10,7 @@
 	<name>Sample for Bitcoin Integration for Android</name>
 
 	<parent>
-		<groupId>com.cannabiscoinfs.wallet</groupId>
+		<groupId>com.cannabiscoinfs420.wallet</groupId>
 		<artifactId>base</artifactId>
 		<version>1</version>
 	</parent>
@@ -25,9 +25,9 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<!-- com.cannabiscoinfs.wallet.integration.android.* -->
+		<!-- com.cannabiscoinfs420.wallet.integration.android.* -->
 		<dependency>
-			<groupId>com.cannabiscoinfs.wallet</groupId>
+			<groupId>com.cannabiscoinfs420.wallet</groupId>
 			<artifactId>integration-android</artifactId>
 			<version>2.0</version>
 		</dependency>

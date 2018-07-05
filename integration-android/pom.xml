@@ -10,7 +10,7 @@
 	<name>CannabisCoin Integration for Android</name>
 
 	<parent>
-		<groupId>com.cannabiscoinfs.wallet</groupId>
+		<groupId>com.cannabiscoinfs420.wallet</groupId>
 		<artifactId>base</artifactId>
 		<version>1</version>
 	</parent>

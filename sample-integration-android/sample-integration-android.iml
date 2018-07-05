@@ -43,7 +43,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: xerces:xmlParserAPIs:2.6.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: xpp3:xpp3:1.1.4c" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.json:json:20080701" level="project" />
-    <orderEntry type="library" name="Maven: com.cannabiscoinfs.wallet:integration-android:2.0" level="project" />
+    <orderEntry type="library" name="Maven: com.cannabiscoinfs420.wallet:integration-android:2.0" level="project" />
     <orderEntry type="library" name="Maven: com.google:bitcoinj:0.11.1" level="project" />
     <orderEntry type="library" name="Maven: com.madgag:sc-light-jdk15on:1.47.0.2" level="project" />
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:2.5.0" level="project" />

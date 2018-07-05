@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="com.cannabiscoinfs.wallet.integration.sample"
+	package="com.cannabiscoinfs420.wallet.integration.sample"
 	android:versionCode="1"
 	android:versionName="1.0" >
 
@@ -19,7 +19,7 @@
 
 	<application android:label="CannabisCoin in-app payment sample" >
 		<activity
-			android:name="com.cannabiscoinfs.wallet.integration.sample.SampleActivity"
+			android:name="com.cannabiscoinfs420.wallet.integration.sample.SampleActivity"
 			android:theme="@android:style/Theme.Light" >
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />

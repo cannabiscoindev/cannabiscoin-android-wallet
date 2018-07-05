@@ -11,7 +11,7 @@
 	<name>CannabisCoin Wallet</name>
 
 	<parent>
-		<groupId>com.cannabiscoinfs.wallet</groupId>
+		<groupId>com.cannabiscoinfs420.wallet</groupId>
 		<artifactId>base</artifactId>
 		<version>1</version>
 	</parent>
@@ -59,9 +59,9 @@
 			<version>0.12-SNAPSHOT</version>
 		</dependency>
 
-		<!-- com.cannabiscoinfs.wallet.integration.android.* -->
+		<!-- com.cannabiscoinfs420.wallet.integration.android.* -->
 		<dependency>
-			<groupId>com.cannabiscoinfs.wallet</groupId>
+			<groupId>com.cannabiscoinfs420.wallet</groupId>
 			<artifactId>integration-android</artifactId>
 			<version>2.0</version>
 		</dependency>
@@ -198,7 +198,7 @@
 				<artifactId>findbugs-maven-plugin</artifactId>
 				<version>2.5.2</version>
 				<configuration>
-					<onlyAnalyze>com.cannabiscoinfs.wallet.-</onlyAnalyze>
+					<onlyAnalyze>com.cannabiscoinfs420.wallet.-</onlyAnalyze>
 				</configuration>
 			</plugin>
 		</plugins>
